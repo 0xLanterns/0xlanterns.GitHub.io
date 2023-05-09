@@ -45,7 +45,6 @@ export default function Destination(){
                         <span onClick={() => change(0)}>Level 0</span>
                         <span onClick={() => change(1)}>Level 1</span>
                         <span onClick={() => change(2)}>Level 2</span>
-                        <span onClick={() => change(3)}>Level 3</span>
                     </div>
 
                     <h3>
