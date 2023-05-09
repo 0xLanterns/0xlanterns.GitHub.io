@@ -42,13 +42,14 @@ export default function Destination(){
                 <div className="destination-text">
 
                     <div className="destination-names">
-                        <span onClick={() => change(0)}>Level 0</span>
-                        <span onClick={() => change(1)}>Level 1</span>
-                        <span onClick={() => change(2)}>Level 2</span>
+                        <span onClick={() => change(0)}>L0</span>
+                        <span onClick={() => change(1)}>L1</span>
+                        <span onClick={() => change(2)}>L2</span>
                     </div>
 
                     <h3>
                         {name}
+
                     </h3>
                     <p>
                         {description}

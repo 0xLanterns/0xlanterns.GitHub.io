@@ -1,7 +1,7 @@
 {
   "name": "0xLanterns",
   "version": "0.1.0",
-  "homepage": "https://0xLanterns.github.io/",
+  "homepage": "https://0xlanterns.github.io/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
