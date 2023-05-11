@@ -14,7 +14,7 @@ const founders = [
   },
   {
     name: 'kiki',
-    image:'https://pbs.twimg.com/media/EkpnjBVXEAAMYTl?format=jpg&name=360x360',
+    image:'https://i.imgur.com/TndOFH6h.jpg',
     github: 'https://github.com/devNamedKiki',
     twitter: 'https://twitter.com/Kiki_developer',
     linkedin: 'https://www.linkedin.com/in/kiki-brown-2191a525b/'
