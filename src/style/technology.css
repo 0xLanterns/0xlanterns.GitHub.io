@@ -85,6 +85,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    
     flex-direction: column;
     padding: 1rem;
     border-radius: 1rem;
@@ -114,12 +115,19 @@ h3 {
 }
 
 .centered{
-    display: grid;
-    justify-content: center;
-    align-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    
+    width: 100%;
+    margin: 10px 0;
+
 }
 .founders-container{
     display: grid;
     justify-content: center;
     align-content: center;
+}
+
+.card-title{
+    text-align: center;
 }
