@@ -25,21 +25,19 @@ const founders = [
 const Founders = () => {
   return (
     <Container className="founders-container">
-      <h3 className='centered'> 0xLanterns </h3>
+      <p className='centered'> 0xLanterns </p>
       <Row className='founder-layout'>
         {founders.map((founder, index) => (
           <Col key={index} sm="6" md="4">
             <Card>
               <CardBody className="founder-card">
                 <Image className="pictures"  im={founder.image} />
-                <CardTitle  tag="h3">{founder.name}</CardTitle>
+                <CardTitle  tag="p">{founder.name}</CardTitle>
                 <Row className='links'>
                 
                 <CardText><a className='texts' href={founder.github} target="_blank" rel="noreferrer">GitHub</a></CardText>
                 
                 <CardText><a className='texts' href={founder.twitter} target="_blank" rel="noreferrer">Twitter</a></CardText>
-                
-                <CardText><a className='texts' href={founder.linkedin} target="_blank" rel="noreferrer">LinkedIn</a></CardText>
                 </Row>
               </CardBody>
             </Card>
