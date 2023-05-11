@@ -13,7 +13,7 @@ const founders = [
     linkedin: 'https://www.linkedin.com/in/zoumanacisse/'
   },
   {
-    name: 'kiki',
+    name: 'Kiki',
     image:'https://i.imgur.com/TndOFH6h.jpg',
     github: 'https://github.com/devNamedKiki',
     twitter: 'https://twitter.com/Kiki_developer',
